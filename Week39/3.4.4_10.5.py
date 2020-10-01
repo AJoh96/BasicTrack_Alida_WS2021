@@ -1,12 +1,23 @@
 import turtle
 
-window = turtle.getscreen()
-ali = turtle.Turtle
+window = turtle.Screen()
+ali = turtle.Turtle()
 
-#1. equilateral triangle
-ali.fd(60)
-ali.rt(100)
+#Equal. triangle
 
+for _ in range(3):
+    ali.forward(50)
+    ali.left(120)
 
+#square
+for _ in range(4):
+    ali.forward(50)
+    ali.left(90)
+
+#Heyagon
+for _ in range(6):
+    ali.forward(100)
+    ali.left(60)
 
 window.exitonclick()
+
