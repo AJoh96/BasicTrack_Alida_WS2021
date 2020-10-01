@@ -9,7 +9,7 @@ def draw_square(animal, size):
 
 
 screen = turtle.Screen()
-nick = turtle.Turtle
+nick = turtle.Turtle()
 
 #for _ in range(60):
 #    draw_square(nick, 100)
