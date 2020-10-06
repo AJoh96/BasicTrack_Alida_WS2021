@@ -25,6 +25,19 @@ finn.pendown()
 finn.setx(start_point[0])
 finn.sety(start_point[0])
 
+angel = 360/21
+
+def square (t, size):
+    for _ in range(4):
+        t.forward(50)
+        t.left(90)
+
+for x in range(21):
+    finn.color('red')
+    finn.left(angel)
+    square(finn, 200)
+
+'''
 def draw_star(t, size):
     for _ in range(5):
         t.forward(size)
@@ -34,6 +47,6 @@ for index in range(40):
     finn.color('red')
     draw_star(finn, index * 20)
 
-
+'''
 
 window.mainloop()
