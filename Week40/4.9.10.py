@@ -5,10 +5,12 @@ window.bgcolor("lightgreen")
 finn = turtle.Turtle()
 finn.color('blue')
 
+
 def draw_star(t, size):
     for _ in range(5):
         t.forward(size)
         t.right(144)
+
 
 for _ in range(5):
     draw_star(finn, 100)
